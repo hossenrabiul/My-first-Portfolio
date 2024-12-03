@@ -1,0 +1,41 @@
+body{
+    /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+  /* font-family: 'Lato' sans-serif;
+  font-family: 'Open Sans' sans-serif; */
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+    font-size: 48px;
+    font-weight: 800;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+     color: #474747;
+}
